@@ -1,0 +1,38 @@
+div.items {
+	height: 40px;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	max-width: 900px;
+	margin: auto;
+	padding: 6px 0;
+
+}
+div.items > span {
+	color: white;
+
+}
+nav {
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: rgba(0,0,0,0.8);
+	position: sticky;
+	top: 0;
+}
+body {
+	background-color: grey;
+	margin: 0;
+	padding: 0;
+	font-family: "SF Pro Display", "Arial";
+}
+.title > h1 {
+	color: white;
+	margin: auto;
+	text-align: center;
+	font-size: 140px;
+	padding-top: 30vh;
+}
+.title {
+	height: 100vh;
+}
